@@ -252,14 +252,14 @@ main {
   margin-bottom: -22px;
 }
 
-/* MEDIA QUERY SMALL_SIZE */
-@media all and (min-width: 576px) {
+/* MEDIA QUERY SMALL_SIZE and MIDDLE_SIZE */
+@media all and (min-width: 576px) and (min-width: 949px) {
   header {
     height: 85px;
   }
 
   .sidebar {
-    width: 250px;
+    width: 50px;
     height: calc(100vh - 85px);
   }
 
@@ -298,8 +298,8 @@ main {
 }
 
 /* MEDIA QUERY LARGE_SIZE */
-@media all and (min-width: 992px) {
-  .sidebar {
+@media all and (min-width: 950px) {
+  header .sidebar {
     width: 230px;
     height: calc(100vh - 78px);
   }
