@@ -1,5 +1,5 @@
 /* MEDIA QUERY SMALL_SIZE */
-@media all and (min-width: 576px) and (min-width: 770px) {
+@media all and (min-width: 476px) and (min-width: 770px) {
   main {
     height: calc(100vh - 85px);
     width: calc(100vw - 250px);
@@ -8,15 +8,18 @@
   }
 }
 /* MEDIA QUERY MIDDLE_SIZE */
-@media all and (min-width: 770px) and (min-width: 800px) {
+@media all and (min-width: 770px) and (max-width: 900px) {
   /* CONTENUTI */
   main .preview-titles {
     flex-basis: calc(100% / 4);
   }
+  section {
+    background-color: #141922;
+  }
 }
 
 /* MEDIA QUERY LARGE_SIZE */
-@media all and (min-width: 992px) {
+@media all and (min-width: 992px) and (max-width: 1700px) {
   main {
     height: calc(100vh - 78px);
     width: calc(100vw - 230px);
