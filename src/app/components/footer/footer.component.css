@@ -7,6 +7,26 @@
   footer .settings form {
     display: none;
   }
+
+  footer {
+    height: 75px;
+    background-color: #282828;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+@media all and (min-width: 490px) and (max-width: 575px) {
+  footer {
+    height: 75px;
+    background-color: #282828;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
 }
 
 /* MEDIA QUERY SMALL_SIZE */
