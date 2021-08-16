@@ -1,26 +1,13 @@
+/* HEADER */
+
 header {
+  /*Default measure*/
   height: 75px;
   background-color: rgba(8, 11, 18, 0.6);
   position: fixed;
   z-index: 1;
-  width: 100vw;
+  width: 100vw; /*fit all the space available*/
   top: 0;
-}
-
-.sidebar {
-  width: 45px;
-  background-color: #000;
-  height: calc(100vh - 75px);
-  position: fixed;
-  top: 0;
-}
-
-.sidebar .playlist {
-  overflow-y: auto;
-}
-
-/* HEADER */
-header {
   text-align: right;
 }
 
@@ -42,24 +29,30 @@ header .upgrade {
 }
 
 header .upgrade .button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /*on mouse hover bit bigger*/
 }
 
 /* SIDEBAR */
 header .sidebar {
   display: flex;
   flex-direction: column;
-}
-
-.sidebar .profile {
-  margin-top: auto;
-}
-
-header .sidebar {
+  width: 50px;
+  background-color: #000;
+  height: calc(100vh - 75px); /*make space for the footer*/
+  position: fixed;
+  top: 0;
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
   font-size: 0.8em;
   font-weight: 600;
+}
+
+.sidebar .playlist {
+  overflow-y: auto;
+}
+
+.sidebar .profile {
+  margin-top: auto;
 }
 
 .sidebar h2 {
@@ -68,7 +61,7 @@ header .sidebar {
   padding-left: 18px;
 }
 
-header #logo-esteso {
+header #logo-extended {
   padding-left: 13px;
   padding-top: 13px;
   width: 135px;
@@ -179,8 +172,8 @@ header .sidebar ul li a {
   padding-left: 10px;
 }
 
-/* PER COLLASSARE LA SIDEBAR IN DIMENSIONE XS */
-#logo-esteso {
+/* TO COLLAPSE THE SIDEBAR IN XS DIMENSION */
+#logo-extended {
   display: none;
 }
 
@@ -257,4 +250,57 @@ main {
 .nav-contents li a:focus hr {
   display: block;
   margin-bottom: -22px;
+}
+
+/* MEDIA QUERY SMALL_SIZE */
+@media all and (min-width: 576px) {
+  header {
+    height: 85px;
+  }
+
+  .sidebar {
+    width: 250px;
+    height: calc(100vh - 85px);
+  }
+
+  /* TO EXPAND SIDEBAR FROM SMALL_SIZE DIMENSION */
+  #logo-immagine {
+    display: none;
+  }
+
+  #logo-esteso {
+    display: block;
+  }
+
+  .sidebar .nav-sidebar {
+    padding-top: 10px;
+  }
+
+  .sidebar .nav-sidebar li a {
+    margin-left: 0;
+  }
+
+  .sidebar .nav-sidebar li a span {
+    display: inline;
+  }
+
+  .sidebar .playlist {
+    display: block;
+  }
+
+  .sidebar .profile span {
+    display: inline;
+  }
+
+  .sidebar .profile hr {
+    display: block;
+  }
+}
+
+/* MEDIA QUERY LARGE_SIZE */
+@media all and (min-width: 992px) {
+  .sidebar {
+    width: 230px;
+    height: calc(100vh - 78px);
+  }
 }
