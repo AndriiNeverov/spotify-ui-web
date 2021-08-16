@@ -1,0 +1,260 @@
+header {
+  height: 75px;
+  background-color: rgba(8, 11, 18, 0.6);
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  top: 0;
+}
+
+.sidebar {
+  width: 45px;
+  background-color: #000;
+  height: calc(100vh - 75px);
+  position: fixed;
+  top: 0;
+}
+
+.sidebar .playlist {
+  overflow-y: auto;
+}
+
+/* HEADER */
+header {
+  text-align: right;
+}
+
+header .upgrade {
+  padding-top: 22px;
+  padding-right: 30px;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 8px 31px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.5em;
+  font-weight: 600;
+}
+
+header .upgrade .button:hover {
+  transform: scale(1.1);
+}
+
+/* SIDEBAR */
+header .sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .profile {
+  margin-top: auto;
+}
+
+header .sidebar {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 18px;
+}
+
+header #logo-esteso {
+  padding-left: 13px;
+  padding-top: 13px;
+  width: 135px;
+}
+
+header #logo-immagine {
+  width: 42px;
+  padding: 0 6px;
+  padding-top: 5px;
+}
+
+header .sidebar ul {
+  list-style: none;
+}
+
+header .sidebar ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+.sidebar .nav-sidebar li a {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.nav-sidebar li a:focus {
+  border-left: 5px solid #adff2f;
+}
+
+.sidebar .nav-sidebar li a > span {
+  padding-left: 3px;
+}
+
+.sidebar li a:hover {
+  color: #fff;
+}
+
+#crea-playlist:hover #plus {
+  background-color: #fff;
+}
+
+.playlist {
+  padding-top: 18px;
+}
+
+.playlist > ul > li {
+  padding-top: 12px;
+}
+
+#crea-playlist {
+  padding-top: 7px;
+}
+
+#crea-playlist span {
+  padding-left: 8px;
+}
+
+#plus {
+  display: inline-block;
+  padding: 7px 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#plus i {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.sidebar .profile a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.sidebar .profile hr {
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 18px;
+}
+
+.sidebar .profile #installa-app {
+  padding: 9px 18px;
+}
+
+.sidebar .profile #name-profile {
+  padding-top: 12px;
+  padding-bottom: 5px;
+  padding-left: 18px;
+}
+
+.sidebar .profile #name-profile a {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .profile #name-profile i {
+  font-size: 2em;
+}
+
+.sidebar .profile #name-profile span {
+  padding-left: 9px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.sidebar .profile #installa-app span {
+  padding-left: 10px;
+}
+
+/* PER COLLASSARE LA SIDEBAR IN DIMENSIONE XS */
+#logo-esteso {
+  display: none;
+}
+
+.sidebar .nav-sidebar li a span {
+  display: none;
+}
+
+.sidebar .playlist {
+  display: none;
+}
+
+.sidebar .profile span,
+.sidebar .profile hr {
+  display: none;
+}
+
+.sidebar .nav-sidebar li a {
+  margin-left: -8px;
+}
+
+.sidebar .profile #name-profile {
+  padding-top: 12px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.sidebar .profile #installa-app {
+  padding: 9px 16px;
+}
+
+.sidebar .profile #installa-app a:hover {
+  color: #fff;
+}
+
+/* MAIN */
+main {
+  color: #fff;
+}
+
+.nav-contents ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-contents ul li {
+  padding-bottom: 25px;
+  margin: 0 7px;
+}
+
+.nav-contents ul li a {
+  text-decoration: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+}
+
+.nav-contents ul li a > hr {
+  width: 30px;
+  height: 2px;
+  color: #adff2f;
+  background-color: #adff2f;
+  margin: 0 auto;
+  display: none;
+  margin-top: 1px;
+}
+
+.nav-contents ul li a:hover {
+  color: #fff;
+}
+
+.nav-contents li a:focus hr {
+  display: block;
+  margin-bottom: -22px;
+}
