@@ -180,6 +180,8 @@ main .preview img {
 
 main .artisti .preview img {
   border-radius: 50%;
+  height: 222px;
+  width: 222px;
 }
 
 main .merits {

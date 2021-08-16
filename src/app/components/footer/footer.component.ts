@@ -7,6 +7,7 @@ import Audio, { AudioPlaylistType, AudioPlaylist } from 'ts-audio';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+
   stateSong:boolean = true;
   vol:string = '';
   audio = Audio({
