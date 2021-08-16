@@ -10,6 +10,7 @@
         alt="brunori-release-preview"
       />
     </div>
+
     <div class="description">
       <h5>Sinister</h5>
       <a href="#"><p>Brano Nome</p></a>
@@ -23,7 +24,10 @@
     <div class="buttons">
       <a href="#"><i class="fas fa-random"></i></a>
       <a href="#"><i class="fas fa-step-backward"></i></a>
-      <a href="#" id="play"><i class="far fa-play-circle"></i></a>
+      <a id="play" (click)="toggleSong()"
+        ><i class="far fa-play-circle" id="playStyle"></i>
+        <i class="far fa-pause-circle" id="pauseStyle"></i
+      ></a>
       <a href=""><i class="fas fa-step-forward"></i></a>
       <a href=""><i class="fas fa-redo"></i></a>
     </div>
@@ -37,6 +41,7 @@
           max="100"
           step="5"
           value="10"
+          id="range"
         />
       </form>
       <p>4:35</p>
@@ -48,12 +53,14 @@
     <a href="#"><i class="fas fa-volume-up"></i></a>
     <form>
       <input
+        id="rangeInput"
         type="range"
         name="progress-bar"
         min="0"
-        max="100"
+        max="25"
         step="5"
-        value="50"
+        value="1"
+        (change)="changeVol()"
       />
     </form>
   </div>

@@ -275,3 +275,12 @@ input[type="range"]::-ms-fill-lower {
 input[type="range"]::-ms-fill-upper {
   background-color: #adff2f;
 }
+#playStyle {
+  display: block;
+}
+
+#pauseStyle {
+  font-size: 1.3em;
+  padding: 0 17px;
+  display: none;
+}
