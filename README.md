@@ -6,24 +6,25 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="Css3" src="https://img.shields.io/badge/-CSS3-00FF00?style=flat-square&logo=css3&logoColor=brown" />
   <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-ADD8E6?style=flat-square&logo=javascript&logoColor=black" />
+  ![GitHub branch checks state](https://img.shields.io/github/checks-status/lucaimbalzano/spotify-ui-web/master?color=green)
+  
 
+## Deploy📌 `https://spotifyui-web.herokuapp.com/home`
 ## Preview📌
-
+![image](https://user-images.githubusercontent.com/45575898/129701101-cd423a10-eaa2-4b8b-9a5d-fbf8618ffc83.png)
 https://user-images.githubusercontent.com/45575898/129693510-3eec9b65-0194-4ab0-bc19-41757e10424e.mp4
-
+![image](https://user-images.githubusercontent.com/45575898/129700986-f72f590f-b043-41af-97cd-0b54287e5d34.png)
 
 ## Installation📌
 Run `npm install` to install all the dependencies
 
 ## Description📌
-I wrote the style by hand, and implemented it with `Angular`; so i used the router and implement it into the navbar, i used typescript logic for the burger-menu and the copy-to-clipboard.
+I made this UI basically with CSS3 and i implemented a little player music with this library https://www.npmjs.com/package/ts-audio, you can press play and pause, and set the volume 🔊.
 I used flexbox to move the blocks content into the page and @media screen to render it `responsive`.
 
 ## Development server📌
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
+Run `ng serve --port 1999` for a dev server. Navigate to `http://localhost:1999/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -44,3 +45,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Made with ❤ by GitHub ![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a)![](https://img.shields.io/badge/Imbalzano-informational?style=flat&logo=&logoColor=white&color=2bbc8a)
