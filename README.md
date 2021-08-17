@@ -51,4 +51,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Made with ❤ by GitHub ![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a)![](https://img.shields.io/badge/Imbalzano-informational?style=flat&logo=&logoColor=white&color=2bbc8a)
+Made with ❤ by ![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a)![](https://img.shields.io/badge/Imbalzano-informational?style=flat&logo=&logoColor=white&color=2bbc8a)
