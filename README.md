@@ -1,4 +1,8 @@
 # SpotifyUiWeb
+<img src="https://user-images.githubusercontent.com/45575898/129688120-94695d10-9a17-4833-8b73-c9d45331a7c4.png" width="60" height="60" />
+
+
+![spotify](https://user-images.githubusercontent.com/45575898/129688120-94695d10-9a17-4833-8b73-c9d45331a7c4.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
