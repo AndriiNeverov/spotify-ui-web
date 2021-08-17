@@ -1,13 +1,32 @@
+@media all and (min-width: 250px) and (max-width: 300px) {
+  main {
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-left: 1%;
+  }
+  main .merits {
+    height: 147px;
+    margin: 24px 49px 39px;
+  }
+}
+@media all and (min-width: 300px) and (max-width: 576px) {
+  main {
+    padding-left: 5%;
+  }
+}
 @media all and (min-width: 300px) and (max-width: 576px) {
   main {
     margin-left: 50px;
     padding-top: 100px;
-    padding-left: 20%;
   }
 
   .preview img {
     height: 230px;
     width: 230px;
+  }
+  main .merits {
+    height: 147px;
+    margin: 24px 49px 39px;
   }
 }
 
@@ -186,5 +205,5 @@ main .artisti .preview img {
 
 main .merits {
   height: 120px;
-  margin: 50px 90px 20px;
+  margin: 50px 50px 20px;
 }
