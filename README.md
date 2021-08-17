@@ -12,7 +12,9 @@
 ## Deploy📌 `https://spotifyui-web.herokuapp.com/home`
 ## Preview📌
 ![image](https://user-images.githubusercontent.com/45575898/129701101-cd423a10-eaa2-4b8b-9a5d-fbf8618ffc83.png)
-https://user-images.githubusercontent.com/45575898/129693510-3eec9b65-0194-4ab0-bc19-41757e10424e.mp4
+
+ https://user-images.githubusercontent.com/45575898/129693510-3eec9b65-0194-4ab0-bc19-41757e10424e.mp4
+
 ![image](https://user-images.githubusercontent.com/45575898/129700986-f72f590f-b043-41af-97cd-0b54287e5d34.png)
 
 ## Installation📌
