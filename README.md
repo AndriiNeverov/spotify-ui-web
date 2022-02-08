@@ -9,7 +9,7 @@
   ![GitHub branch checks state](https://img.shields.io/github/checks-status/lucaimbalzano/spotify-ui-web/master?color=green)
   
 
-## Deploy📌 `https://spotifyui-web.herokuapp.com/home`
+## Deploy📌 [SpotifyUI-Website.com](https://spotifyui-web.herokuapp.com/home)
 ## Preview📌
 ![image](https://user-images.githubusercontent.com/45575898/129701101-cd423a10-eaa2-4b8b-9a5d-fbf8618ffc83.png)
 
